@@ -1,0 +1,53 @@
+html,body{
+    /*background-image: url('../../assets/images/wormz.png');*/
+    font-family: 'Shadows Into Light', cursive;
+    background-color: black;
+    color: azure;
+       
+}
+
+.row{
+    background-color: black;
+    color: azure;    
+    text-align: center;
+    margin: 10px;
+}
+
+.mycharacters{
+    background-color: #00ab6f;
+}
+
+.myOpponents{
+    background-color: #e9003a;
+}
+
+.notPlaying{
+    background-color:#cfcecb;
+}
+
+
+.popup {
+    position: fixed;
+    top: 85%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 1px dotted #004b4b;
+    background-color: #cfcecb;
+    color: #004b4b;
+    padding: 10px;
+    font-family: 'Shadows Into Light', cursive;
+    visibility: hidden;
+}
+
+.initialtitle{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 60px;
+    color: #004b4b;    
+}
+
+#btn{
+    align-content: center;
+}
