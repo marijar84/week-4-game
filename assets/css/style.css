@@ -6,6 +6,18 @@ html,body{
        
 }
 
+#imagetitle{
+    width: 350px;
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+}
+
+.navbar-default {
+    color: black;
+    background-color: black;
+}
+
 .row{
     background-color: black;
     color: azure;    
