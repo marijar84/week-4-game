@@ -252,6 +252,8 @@ $(document).ready(function () {
         }
         else {
             $("#message").text("You win!!! Please select another opponent.");
+            $("#characterResult").html("");
+            $("#opponentResult").html("");
         }
     }
 
@@ -268,11 +270,9 @@ $(document).ready(function () {
     function validateGame() {
         if (myCharacter.healthPower <= 0 && myOpponent.healthPower <= 0) {
             if (myCharacter.healthPower < myOpponent.healthPower) {
-                console.log("true");
                 myCharacterWin();           
             }
             else {
-                console.log("false");
                 mycharacterLoose();               
             }
         }
