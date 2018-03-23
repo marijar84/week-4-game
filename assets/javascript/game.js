@@ -23,7 +23,7 @@ $(document).ready(function () {
                 name: "Goku",
                 healthPower: 200,
                 attackPower: 14,
-                couterAttackPower: 28,
+                couterAttackPower: 25,
                 pathImage: "assets/images/Goku.png"
             },
             {
@@ -31,7 +31,7 @@ $(document).ready(function () {
                 name: "Piccolo",
                 healthPower: 140,
                 attackPower: 12,
-                couterAttackPower: 21,
+                couterAttackPower: 19,
                 pathImage: "assets/images/Piccolo.png"
             },
             {
@@ -39,7 +39,7 @@ $(document).ready(function () {
                 name: "Vegeta",
                 healthPower: 175,
                 attackPower: 13,
-                couterAttackPower: 25,
+                couterAttackPower: 20,
                 pathImage: "assets/images/Vegeta.png"
             },
             {
@@ -47,7 +47,7 @@ $(document).ready(function () {
                 name: "Majin_Buu",
                 healthPower: 150,
                 attackPower: 11,
-                couterAttackPower: 22,
+                couterAttackPower: 18,
                 pathImage: "assets/images/MajinBuu.png"
             }];
     }
