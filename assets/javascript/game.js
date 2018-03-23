@@ -69,6 +69,7 @@ $(document).ready(function () {
             //Create image            
             var image = $("<img>");
             image.attr("src", characteres[item].pathImage);
+            image.addClass("img-rounded");
             div.append(image);
 
             //Create health power label
