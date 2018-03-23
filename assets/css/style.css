@@ -45,7 +45,7 @@ html,body{
     transform: translate(-50%, -50%);
     border: 1px dotted #004b4b;
     background-color: #cfcecb;
-    color: #004b4b;
+    color: #cfcecb;
     padding: 10px;
     font-family: 'Shadows Into Light', cursive;
     visibility: hidden;
@@ -56,7 +56,7 @@ html,body{
     font-family: 'Shadows Into Light', cursive;
     font-weight: bold;
     font-size: 60px;
-    color: #004b4b;    
+    color: #cfcecb;    
 }
 
 #btn{
